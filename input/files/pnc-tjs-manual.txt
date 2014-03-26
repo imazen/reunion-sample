@@ -1,0 +1,2 @@
+Date	Amount	Description
+2014-01-01	50.00	A sample transaction
