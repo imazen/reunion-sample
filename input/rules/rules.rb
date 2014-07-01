@@ -152,7 +152,7 @@ date_between '2013-03-14', '2014-03-20' do
       vendors :stack_overflow, :shiprise, :github,:moo_printing, :vistaprint, :authentic_jobs, :cafepress
       vendors :oreilly, :code_school
     end 
-    vendors :skype, :hellofax, :stack_overflow, 
+    vendors :skype, :hellofax, :stack_overflow
     tax_expenses :contract_labor
   end
 
