@@ -16,6 +16,9 @@ PATH
 GEM
   remote: http://rubygems.org/
   specs:
+    better_errors (1.1.0)
+      coderay (>= 1.0.0)
+      erubis (>= 2.6.6)
     byebug (2.7.0)
       columnize (~> 0.3)
       debugger-linecache (~> 1.2)
@@ -33,6 +36,7 @@ GEM
       debugger-ruby_core_source (~> 1.3.2)
     debugger-linecache (1.2.0)
     debugger-ruby_core_source (1.3.2)
+    erubis (2.7.0)
     eventmachine (1.0.3)
     ffi (1.9.3)
     listen (2.7.1)
@@ -54,10 +58,13 @@ GEM
     rack (1.5.2)
     rack-protection (1.5.2)
       rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
     rake (10.2.1)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.3)
       ffi (>= 0.5.0)
+    rouge (1.3.3)
     ruby-prof (0.14.2)
     sinatra (1.4.4)
       rack (~> 1.4)
@@ -75,22 +82,30 @@ GEM
     tilt (1.4.1)
     timers (1.1.0)
     triez (1.0.2)
+    webrat (0.7.3)
+      nokogiri (>= 1.2.0)
+      rack (>= 1.0)
+      rack-test (>= 0.5.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  better_errors
   byebug
   debugger
   ofx (~> 0.3.2)
   pry
+  rack-test
   rake
   rb-fsevent
   rerun!
   reunion!
+  rouge
   ruby-prof
   sinatra
   slim
   thin
   tilt
   triez
+  webrat
