@@ -1,0 +1,3 @@
+Date	Balance	Currency
+2012-06-05	0.00	USD
+2014-04-25	-84.30	USD
